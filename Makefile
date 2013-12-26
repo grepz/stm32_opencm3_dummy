@@ -12,8 +12,6 @@ LD      = $(TOOLCHAIN_DIR)/arm-none-eabi-ld
 INCLUDE = $(addprefix -I,$(INCLUDE_DIRS))
 
 DEFS =  -DSTM32F4
-DEFS += -DAPP_LOAD_ADDRESS=0x08004000
-DEFS += -DSTM32F4
 
 CFLAGS = -O0
 CFLAGS += -Wall -Wextra -Warray-bounds
