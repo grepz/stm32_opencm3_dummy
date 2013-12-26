@@ -1,4 +1,4 @@
-PRODUCT = tracker_boot
+PRODUCT = product_name
 
 TOOLCHAIN_DIR = ~/arm-none-eabi/bin
 
