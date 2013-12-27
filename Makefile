@@ -13,7 +13,7 @@ INCLUDE = $(addprefix -I,$(INCLUDE_DIRS))
 
 DEFS =  -DSTM32F4
 
-CFLAGS = -O0
+CFLAGS = -Os
 CFLAGS += -Wall -Wextra -Warray-bounds
 CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 CFLAGS += -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork
